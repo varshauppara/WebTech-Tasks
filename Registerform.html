@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+</head>
+<body>
+   <form action=""method="post">
+    <fieldset>
+        <legend></legend>
+        <table>
+            <tr>
+                <td><label for="name">Firstname</label></td>
+                <td>
+                    <input type="text"id="name"maxlength="20">(max 20 char a-z and A-Z)
+                </td>
+            </tr>
+            <tr>
+                <td><label for="name">Lastname</label></td>
+                <td>
+                    <input type="text"id="name"maxlength="20">(max 20 char a-z and A-Z)
+                </td>
+            </tr>
+            <tr>
+                <td><label for="dob">Date of Birth</label></td>
+                <td><input type="date" name="dob" id="dob"></td>
+            </tr>
+            <tr>
+                <td><label for="gender">Gender</label></td>
+                <td><input type="radio" id="gender">Male
+                    <input type="radio" id="gender">Female
+                </td>
+            </tr>
+            <tr>
+                <td><label for="email">Email Id</label></td>
+                <td><input type="email" id="email"></td>
+            </tr>
+            <tr>
+                <td><label for="Mobile">MOBILE NO</label></td>
+                <td><input type="tel"id="Mobile" maxlength="10"></td>
+            </tr>
+            <tr>
+                <td><label for="Address">ADDRESS</label></td>
+                <td><textarea name="Address" id="Address"></textarea></td>
+            </tr>
+            <tr>
+                <td><label for="City">CITY</label></td>
+                <td><input type="text" id ="city"></td>
+            </tr>
+            <tr>
+                <td><label for="pin">PINCODE</label></td>
+                <td><input type="number"maxlength="6">(6 digit number)</td>
+            </tr>
+            <tr>
+                <td><label for="state">STATE</label></td>
+                <td><input type="text" id="state"></td>
+            </tr>
+            <tr>
+                <td><label for="country">COUNTRY</label></td>
+                <td><input type="text" id ="state"></td>
+            </tr>
+            <tr>
+                <td rowspan="2"><label for="Hobbie">HOBBIES</label></td>
+                <td>
+                    <input type="checkbox" id="Hobbie">Drawing
+                    <input type="checkbox" id="Hobbie">Singing
+                    <input type="checkbox" id="Hobbie">Dancing
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="checkbox" id="Hobbie">others
+                    <input type="text" id="Hobbie">
+                </td>
+            </tr>
+             <tr>
+                    <td ><label for="Qualification">Qualifications</label></td>
+                    <td>
+                        <table>
+                            <tr>
+                               <td>sl.no</td>
+                               <td>Examination</td>
+                               <td>Board</td>
+                               <td>Percentage</td>
+                               <td>year of Pass</td>
+                            </tr>
+                            <tr>
+                                <td>1</td>
+                                <td><input type="text"></td>
+                                <td><input type="text"></td>
+                                <td><input type="text"></td>
+                                <td><input type="text"></td>
+                            </tr>
+                            <tr>
+                                <td>2</td>
+                                <td><input type="text"></td>
+                                <td><input type="text"></td>
+                                <td><input type="text"></td>
+                                <td><input type="text"></td>
+                            </tr>
+                            <tr>
+                                <td>3</td>
+                                <td><input type="text"></td>
+                                <td><input type="text"></td>
+                                <td><input type="text"></td>
+                                <td><input type="text"></td>
+                            </tr>
+                            <tr>
+                                <td>4</td>
+                                <td><input type="text"></td>
+                                <td><input type="text"></td>
+                                <td><input type="text"></td>
+                                <td><input type="text"></td>
+                            </tr>
+                        </table>
+                    </td>
+
+            </tr>
+            <tr>
+                <td><label for="course">COURSES APPLIED FOR</label></td>
+                <td>
+                    <input type="checkbox" id="course">BCA
+                     <input type="checkbox" id="course">BSC
+                      <input type="checkbox" id="course">BCOM
+                       <input type="checkbox" id="course">BA
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <center>
+                        <button>Submit</button>
+                        <button>Reset</button>
+                    </center>
+                </td>
+            </tr>
+        </table>
+    </fieldset>
+   </form>
+</body>
+</html>
